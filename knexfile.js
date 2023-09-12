@@ -13,6 +13,7 @@ module.exports = {
       directory: "./data/seeds",
     },
   },
+  production: {},
 };
 
 //database in olması gerekiyor mig_1 migration a göre
@@ -23,8 +24,7 @@ module.exports = {
 // npx knex migrate:lates -> oluşturulan migrate sırasıyla çalıştırır
 //Seed komutları  -  Sırayla gerçekleşmez hepsini yükler
 // npx knex seed:make 01_aktor_ekle
-//npx knex seed:run   
+//npx knex seed:run
 
 // postgre sql baglanma cmd ile
 //psql -d veritabanı_adı -U kullanıcı_adı
-

@@ -5,7 +5,7 @@
 exports.up = function (knex) {
   return knex.schema
     .createTable("aktor", (table) => {
-      table.increments("id");
+      table.increments();
       table.string("isim", 200).notNullable();
     })
     .createTable("film", (table) => {
