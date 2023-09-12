@@ -1,5 +1,4 @@
 const router = require("express").Router();
-let data = require("../data.js"); //let olmaz ise hata verir
 const Aktor = require("../data/data-model");
 
 router.get("/", (req, res) => {
